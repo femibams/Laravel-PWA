@@ -4,6 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="{{url('/manifest.json')}}">
+        <!-- Chrome for Android theme color -->
+        <meta name="theme-color" content="#000000">
+
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="laravel-pwa" content="PWA">
+        <link rel="icon" sizes="512x512" href="icon.png">
         <title>Laravel</title>
 
         <!-- Fonts -->
